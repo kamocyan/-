@@ -227,7 +227,6 @@ h3 {
 #company-table {
     width: 100%;
 }
- 
 .tableheader {
     text-align: left;
     padding: 20px;
@@ -360,18 +359,18 @@ footer {
   float: right;
 }
 @media (max-width: 767px) {
-      body {
+    body {
         min-width: 375px;
         margin: 0;
-      }
-      #nav-pc {
-        display: none;
-      }
-      #menu-sp {
+        }
+        #nav-pc {
+         display: none;
+        } 
+        #menu-sp {
         float: right;
         padding: 0;
-      }
-       #nav-sp {
+        }
+        #nav-sp {
          background-color: #2710d5;
          position: absolute;
          left: 0;
@@ -380,7 +379,7 @@ footer {
          width: 100%;
          display: none;
          z-index: 100;
-       }
+        }
        #close {
         position: absolute;
         top: 20px;
@@ -456,4 +455,4 @@ footer {
             bottom: 0;
             right: 0;
         }
-}
+    }
