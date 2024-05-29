@@ -1,4 +1,5 @@
 /* PC、スマホ共通スタイル */
+
 body {
     font-family: "Noto Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
   }
@@ -14,6 +15,7 @@ PC用のスタイル
 
 @media screen and (min-width: 768px) {
 /* 横幅設定 */    
+
     body{
         max-width: 1080px;
         min-width: 900px;
@@ -29,22 +31,27 @@ PC用のスタイル
         align-items: center;
         padding: 0 20px;
         box-sizing: border-box;
+        margin-top: 40px;
     }
 
-    header.logo {
+    #logo {
         font-size: 34px;
         font-weight: bold;
+        border: solid, 1px, #000;
+        padding: 5px 20px 5px 20px;
     }
 
-    #header-photo {
+    #header-phonto {
         font-size: 34px;
-        margin: 31px 0 0 208px;
     }
 
     #header-camera {
         width: 100%;
+        margin-top: 40px;
     }
+
 /* ナビゲーションのリンクの装飾設定 */
+
     header .about.h3 {
         font-size: 34px;
         padding-top: 15px;
@@ -73,28 +80,60 @@ PC用のスタイル
     }
 
     /* メインビジュアル*/
+
     .main-visual {
         position: relative;
         height: 400px;
     }
 
-    .about.h2 {
+ /* aboutページ */
+
+    #about {
+        background-color: antiquewhite;
+        margin-top: 40px;
+    }
+
+    .about {
         text-align: center;
     }
+    
+    #about-left > img {
 
-    #About-photo {
-       
-    }
-
-    .about.h3 {
-
-    }
-
-    ul {
+        width: 200px;
+        margin-left: 150px;
 
     }
+
+    #about-right > h3,ul {
+        background-color: aliceblue;
+        width: 500px;
+        margin-left: 500px;
+        padding-bottom: 100px;
+    }
+
+/* worksページ */
+
+#works {
+    background-color: darkgray;
+    margin: 50px 0 50px 0;
+}
+
+.works {
+    text-align: center;
+}
+
+.works-shasin {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+#works-around {
+    margin-left: 250px;
+}
+
 
 /* フッター */
+
     footer {
         background-color: darkcyan;
         color: #000;
