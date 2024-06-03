@@ -1,0 +1,190 @@
+body {
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','ヒラギノ角ゴシック','Hiragino Sans',  
+}
+
+/* ナビ */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 960px;
+    min-width: 593px;
+}
+
+.menu a , .home {
+    font-size: 34px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ナビのMyProfileの部分 */
+.home {
+    border: 1px solid #000;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+/* メニューの余白 */
+.menu > a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* 名前 */
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#about , #works {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 34px;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* divの 不要な空白を削除 */
+div {
+    font-size: 0;
+}
+
+/* メイン画像 */
+.mainpic {
+    width: 100%;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* About */
+.about {
+    padding: 10px;
+    display: flex;
+    flex-wrap: swrap;
+    align-items: center;
+    margin: 20px auto 20px auto;
+    max-width: 960px;
+}
+
+/* 丸く切り取る画像 */
+.circle {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+}
+
+/* プロフィールの説明部分 */
+.content {
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+/* works */
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+/* Worksの画像と説明部分 */
+.item {
+    padding-bottom: 60px;
+    width: 25%;
+}
+
+.item_center {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* フッター */
+footer p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*====================
+ スマートフォン用のスタイル
+=====================*/
+@media screen and (max-width: 767px) {
+    body{
+        min-width: 515px
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1em;
+    }
+
+    .left,.menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu a {
+        margin-left: 1em;
+    }
+
+    .mainpic {
+        width: 100%;
+    }
+
+    .works {
+        margin: 0 auto;
+    }
+
+    .item {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+        margin: 0 20px;
+    }
+
+    .item > img {
+        width: 100%;
+    }
+    .item > p {
+        text-align: center;
+    }
+
+    .about {
+        padding: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 20px auto 20px auto;
+        max-width: 960px;
+    }
+    /* 丸く切り取る画像 */
+    .circle {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border: 3px solid #999;
+        padding: 3px;
+    }
+/* プロフィールの説明部分 */
+    .content {
+        margin: 0 auto;
+        padding-left: 40px;
+    }
+}
