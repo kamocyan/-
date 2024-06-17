@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>ポートフォリオ</title>
+
+    <!-- JS  slickの読み込み -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <!-- JS  ここまで -->
 </head>
 
 <body>
@@ -14,7 +19,7 @@
             <h1><a href="index.html" class="home">My Profile</a></h1>
 <!-- ナビ -->
             <nav class="menu">
-                <a href="#sabout">About</a>
+                <a href="#about">About</a>
                 <a href="#works">Works</a>
             </nav>
         </div>
@@ -23,9 +28,15 @@
     <main>
         <article>
 <!-- メイン画像 -->
-            <div>
-                <img src="images/MainVisual.png" alt="カメラ" class="mainpic">
-            </div>
+        <div>
+            <!-- JS -->
+            <ul class="slider">
+                <li><img src="images/MainVisual.png" alt="CanonのCamera" class="mainpic"></li>
+                <li><img src="images/main2.png" alt="機材一式" class="mainpic"></li>
+                <li><img src="images/main3.png" alt="海の撮影" class="mainpic"></li>
+              </ul>
+            <!-- JS -->
+        </div>
             
 <!-- アバウト -->
             <h1 id="about">About</h1>

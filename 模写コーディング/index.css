@@ -5,7 +5,6 @@ body {
 /* ナビ */
 .header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px auto;
     max-width: 960px;
@@ -98,9 +97,9 @@ img {
 .works {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 600px;
 }
 
 /* Worksの画像と説明部分 */
@@ -133,6 +132,7 @@ footer p {
         justify-content: space-between;
         padding: 0 1em;
     }
+
 
     .left,.menu {
         display: flex;
@@ -189,4 +189,9 @@ footer p {
         margin: 0 auto;
         padding-left: 40px;
     }
+}
+/* slick */
+.slider {
+    /* ul要素の不要なパディングを削除する */
+    padding: 0;
 }
