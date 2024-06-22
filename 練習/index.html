@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lightbox導入</title>
-    <link rel="stylesheet"href="css/lightbox.css">
+    <!-- slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Optional: Theme -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet"href="index.css">
 </head>
 <body>
@@ -26,7 +29,17 @@
             <li><a href="images/23768912_s.jpg"date-lightbox="image-5"><img src="images/5034285_s.jpg" alt=""></a></li>
         </ul>
     </div><!-- container -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="path/to/lightbox.js"></script>
+
+    <div id="model" class="model">
+        <span class="close">$times;</span>
+        <div class="model-content">
+            <!-- ?? -->
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
