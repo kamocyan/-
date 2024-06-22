@@ -1,0 +1,16 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ul {
+    overflow: hidden;
+    list-style: none;
+}
+li {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+img {
+    max-width: 100%;
+}
