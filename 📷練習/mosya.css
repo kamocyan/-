@@ -1,0 +1,166 @@
+body {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* 横並び */
+.flex {
+    display: flex;
+}
+
+.is-between {
+    justify-content: space-between;
+}
+
+/* 両端による */
+.is align-center {
+    align-items: center;
+}
+
+.inner {
+    max-width: 940px;  
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ボタン */
+.main-bottun a {
+    display: block;
+    line-height: 58px;
+    width: 300px;
+    height: 58px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    margin: 0  auto;
+}
+
+.main-bottun a {
+    transition: .3s;
+}
+
+.main-bottun a:hover {
+    background-color: #ccc;
+    transition: .3s;
+}
+
+.ma-top-m {
+    margin-top: 50px;
+}
+
+.ma-top-l {
+    margin-top: 100px;
+}
+
+/* header */
+.header {
+    padding: 1em;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.gnav ul {
+    display: flex;
+    color: black;
+}
+
+.gnav li {
+    font-size: 18px;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.gnav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.gnav li a {
+    transition: .3s;
+}
+
+.gnav li a:hover {
+    color: #ccc;
+    transition: .3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {font-size: 14px;}
+
+    .gnav li a {font-size: 13px;}
+
+    .mv {
+        width: 100%;
+    }
+
+/* about */
+.section-wrap {
+    margin: 70px 0 130px;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.circle-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.adout-body {
+    width: 540px;
+}
+
+.about-body-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .circle-img img  {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+}
+
+/* lineup */
+.Lineup-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lineup-list {
+    max-width: 300px;
+}
+
+.lineup-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.copy {
+    text-align: center;
+}
